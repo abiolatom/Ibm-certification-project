@@ -4,29 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.O.O/css/line.css"
+    />
 
     <title>Task List</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1 class="head_text" , id="head_text">Task List</h1>
+        <h1 class="head_text" id="head_text">Task List</h1>
         <div class="newtask" id="newtask">
-          <input type="text" , placeholder="Add a task" />
-          <button>Add</button>
+          <input type="text" placeholder="Add a task" />
+          <button id="push">Add</button>
         </div>
       </div>
 
-      <div class="tasks">
-        <h3> Tasks</h3>
-        
-        <div class="task"> 
-             <input type="checkbox" id="task"><label> Go to bed</label></input></div>
-             <div class="task">
-             <input type="checkbox" id="task"><label> like you are drunk</label></input>
-        </div>
-        
-      </div>
+      <div class="tasks"></div>
     </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
